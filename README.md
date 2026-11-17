@@ -1,5 +1,5 @@
 # Hi, I'm Crystal! 👋
-# Aspiring Data Engineer | SQL • ETL • Data Warehousing • Analytics
+# Aspiring Data Engineer | SQL • Python • ETL Pipelines • Data Warehousing • Analytics • Cloud Technologies
 
   🚧 Work in Progress 🚧
 
