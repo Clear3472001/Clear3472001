@@ -1,9 +1,7 @@
 # Hi, I'm Crystal! 👋
 # Healthcare Operations → Data Analytics & Engineering
 
-<p align="center">
   🚧 Work in Progress 🚧
-</p>
 
 Welcome to my portfolio repository. This site is currently under development as I continue building projects, expanding my technical skills, and documenting my learning journey.
 
