@@ -1,163 +1,172 @@
 # Hi, I'm Crystal! 👋
-# Aspiring Data Engineer | SQL • Python • ETL Pipelines • Data Warehousing • Analytics • Cloud Technologies
 
-  🚧 Work in Progress 🚧
+# Aspiring Data Engineer | SQL • Python • ETL • Data Warehousing • Analytics Engineering • Cloud Data Platforms
 
-Welcome to my portfolio repository. This site is currently under development as I continue building projects, expanding my technical skills, and documenting my learning journey.
+🚧 Portfolio In Progress 🚧
+
+Welcome to my data engineering portfolio. This repository documents my journey in designing, building, and deploying modern data solutions from source systems through analytics-ready reporting layers.
+
+The projects within this portfolio demonstrate foundational and intermediate data engineering concepts including data modeling, database design, ETL development, dimensional modeling, analytics engineering, cloud architecture, and data platform design.
+
+---
 
 ## About Me
-I'm a healthcare operations professional expanding into data analytics and data engineering, with a focus on SQL, Python, business intelligence, cloud technologies, and data pipelines. I am passionate about turning data into actionable insights and scalable solutions. This repository highlights my projects, learning journey, and commitment to using data to improve decision-making and operational outcomes.
 
-### Current Areas of Study
+I'm a healthcare operations professional transitioning into data engineering and analytics.
+
+My focus is on building scalable data solutions that transform raw data into reliable, actionable information. Through this portfolio, I am developing hands-on experience across the entire data lifecycle, from source data generation and operational databases to data warehouses, analytics, and cloud-based architectures.
+
+While the portfolio uses a single business case study to demonstrate real-world scenarios, the primary focus is on the technical skills, methodologies, and best practices used throughout modern data engineering workflows.
+
+---
+
+## Current Areas of Study
+
 - SQL & Database Design
-- Data Analytics
-- ETL Pipelines
+- Data Engineering
+- ETL Development
+- Dimensional Modeling
 - Data Warehousing
+- Analytics Engineering
 - Python
-- Healthcare Data
-- Cloud Technologies
+- DuckDB
+- dbt
+- Cloud Data Platforms
+- Lakehouse Architecture
 
-# Featured Projects
-1. Behavioral Health Source Data
-2. Behavioral Health Database Design
-3. Behavioral Health ETL Pipeline
-4. Behavioral Health Data Warehouse
-5. Behavioral Health Data Warehouse ETL
-6. Behavioral Health Analytics
-7. Behavioral Health Cloud Lakehouse
-8. Behavioral Health Data Platform Case Study
+---
 
-## 1. Behavioral Health Source Data
+# End-to-End Data Engineering Portfolio
+
+This portfolio follows a complete end-to-end data engineering lifecycle.
+
+## Portfolio Roadmap
+
+1. Pediatric Psychiatric ED Source Data
+2. Pediatric Psychiatric ED Database Design
+3. Pediatric Psychiatric ED ETL Pipeline
+4. Pediatric Psychiatric ED Data Warehouse
+5. Pediatric Psychiatric ED Warehouse ETL
+6. Pediatric Psychiatric ED dbt Transformations
+7. Pediatric Psychiatric ED Analytics & Reporting
+8. Pediatric Psychiatric ED Cloud Lakehouse
+9. Pediatric Psychiatric ED Data Platform
+
+---
+
+# Project 1: Pediatric Psychiatric ED Source Data
+
 ### Project Summary
-Behavioral health source datasets designed to simulate real-world patient, provider, referral, appointment, and assessment data for data engineering and analytics projects.
-### Goal: Create realistic behavioral health datasets.
 
-### Deliverables
-patients.csv
-providers.csv
-referrals.csv
-appointments.csv
-assessments.csv
+Synthetic source data generation project designed to simulate operational datasets for a pediatric psychiatric emergency department.
 
-### Skills Demonstrated
-Data modeling
-Data requirements gathering
-Synthetic data creation
-Understanding business processes
+The project creates realistic encounter-level data capturing patient arrivals, triage, medical clearance, admission decisions, psychiatric boarding, transfers, and final dispositions.
+
+### Technical Focus
+
+- Business Requirements Analysis
+- Synthetic Data Generation
+- Python Development
+- Data Documentation
+- Data Modeling Preparation
+- Source System Design
+
+### Technologies
+
+- Python
+- CSV
+- VS Code
 
 ### Repository
-🔗 [View Project](https://github.com/Clear3472001/Behavioral-health-source-data)
----
+
+🔗 [View Project](https://github.com/Clear3472001/pediatric-psych-ed-source-data)
 
 ---
-## Database Design Project
+
+# Project 2: Database Design
+
 ### Project Summary
-Normalized relational database design for a behavioral health practice, including entity relationships, primary and foreign keys, and operational data modeling.
-### Key Skills Demonstrated
-- Database Design
+
+Design and implementation of a normalized relational database that supports operational reporting and serves as the foundation for downstream analytics workloads.
+
+### Skills Demonstrated
+
+- Relational Database Design
 - Normalization
 - Entity Relationship Modeling
 - Schema Development
 - Data Architecture
-### Technologies Used
+
+### Technologies
+
 - SQL
 - DuckDB
 - Draw.io
 - VS Code
-### Repository
-🔗 [View Project](https://github.com/Clear3472001/Behavioral-health-database-design)
 
-## Healthcare ETL Pipeline
+---
+
+# Project 3: ETL Pipeline
+
 ### Project Summary
-ETL pipeline for extracting, validating, transforming, and loading behavioral health data from source files into an operational database.
-### Key Skills Demonstrated
-- ETL Development
+
+Development of repeatable ETL processes to extract, validate, transform, and load source-system data into structured database environments.
+
+### Skills Demonstrated
+
+- ETL Design
 - Data Validation
-- Data Transformation
-- Data Quality Management
-- Pipeline Design
-### Technologies Used
+- Data Quality
+- Automation
+- Pipeline Development
+
+### Technologies
+
 - Python
 - SQL
-- CSV
-- VS Code
-### Repository
-🔗 [View Project](https://github.com/Clear3472001/Behavioral-health-etl-pipeline)
----
-## 🏥 Behavioral Health Data Warehouse
-### Project Summary
-Dimensional data warehouse built using star schema design to support behavioral health reporting, analytics, and business intelligence initiatives.
-
-### Repository
-🔗 [View Project](https://github.com/clear3472001/behavioral-health-data-warehouse)
----
-## 🏥 Behavioral Health Data Warehouse ETL
-### Project Summary
-Operational Database → Data Warehouse.
-Dimensional data warehouse built using star schema design to support behavioral health reporting, analytics, and business intelligence initiatives.
-Data warehouse ETL processes for transforming transactional healthcare data into analytics-ready fact and dimension tables.
-
-### Repository
-🔗 [View Project](https://github.com/clear3472001/behavioral-health-data-warehouse-etl-pipeline)
+- DuckDB
 
 ---
-## 📊 Analytics & Reporting Project
+
+# Project 4: Data Warehouse
+
 ### Project Summary
-Built analytical queries and reports to identify trends, patterns, and operational insights within organizational data. This project showcases data exploration, KPI development, and business-focused reporting techniques.
-### Key Skills Demonstrated
-- SQL Analytics
-- Reporting
-- Data Exploration
-- KPI Development
-- Business Intelligence
-### Technologies Used
+
+Construction of a dimensional data warehouse using star schema design principles to support analytics and reporting.
+
+### Skills Demonstrated
+
+- Dimensional Modeling
+- Fact and Dimension Design
+- Star Schemas
+- Analytical Data Modeling
+
+### Technologies
+
 - SQL
 - DuckDB
-- Excel
-- Data Visualization Tools
-### Repository
-🔗 [View Project](https://github.com/clear3472001/behavioral-health-analytics)
 
 ---
-##  Behavioral Health Cloud Lakehouse
+
+# Project 5: Warehouse ETL
+
 ### Project Summary
-Cloud-based data engineering solution using modern lakehouse architecture, Spark processing, and cloud storage to support scalable healthcare analytics.
-Databricks, GCP, Delta Lake, Bronze/Silver/Gold architecture.
-### Repository
-🔗 [View Project](https://github.com/clear3472001/behavioral-health-cloud-lakehouse)
+
+Transformation of operational data into analytics-ready warehouse structures through repeatable warehouse loading processes.
+
+### Skills Demonstrated
+
+- Incremental Loading
+- Data Transformation
+- Surrogate Keys
+- Data Warehouse Automation
+
+### Technologies
+
+- Python
+- SQL
+- DuckDB
+
 ---
 
-##  Behavioral Health Data Platform 
-### Project Summary
-End-to-end data engineering portfolio project documenting the complete lifecycle from source data design through ETL, warehousing, analytics, and cloud implementation.
-### Repository
-🔗 [View Project](https://github.com/clear3472001/behavioral-health-data-platform)
----
-
-# Current Goals
-- Build a complete data analytics portfolio
-- Strengthen data warehouse design skills
-- Create end-to-end data pipeline projects
-- Expand cloud data engineering knowledge
----
-# Connect With Me
-- GitHub: https://github.com/Clear3472001
-- LinkedIn: www.linkedin.com/in/crystal-thomas-31289875 
----
-> Thanks for visiting! Check back soon as new projects and features are added.
-
-
-<!--
-**Clear3472001/Clear3472001** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+#
